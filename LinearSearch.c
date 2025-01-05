@@ -2,9 +2,9 @@
 int a[100], s, n, i, flag=0;
 int main()
 {
-    printf("Enter number of Elements: ");
+    printf("Enter Number of Elements: ");
     scanf("%d", &n);
-    printf("Enter Elements: ");
+    printf("Enter the Elements: ");
     for(i=0;i<n;i++)
     {
         scanf("%d", &a[i]);
