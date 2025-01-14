@@ -82,7 +82,7 @@ void BFS(int node)
 int main()
 {
 int e,dg,v1,v2;
-printf("Enter the no of vertices(<10) and edges:");
+printf("Enter the no of vertices (<10) and edges:");
 scanf("%d%d",&v,&e);
 printf("Do you want to create a directed graph(0/1)?");
 scanf("%d",&dg);
@@ -100,7 +100,7 @@ for(int i=0;i<e;i++)
     if(dg==0)
         adj_matr[v2][v1]=1;
 }
-printf("The adjacency matrix is:\n");
+printf("The Adjacency Matrix is:\n");
 for(int i=0;i<v;i++)
 {
     for(int j=0;j<v;j++)
