@@ -47,13 +47,13 @@ int dequeue()
     }
     else if(front==rear)
     {
-        printf("Deleted Element: %d", a[front]);
+        printf("DELETED ELEMENT: %d", a[front]);
         front=-1;
         rear=-1;
     }
    else
     {
-        printf("Deleted Element: %d", a[front]);
+        printf("DELETED ELEMENT: %d", a[front]);
         front++;
     }
 }
