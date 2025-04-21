@@ -35,12 +35,12 @@ int main()
 	{
 		case 1:
 			Rhead=addPoly(Phead,Qhead);
-			printf("\n\tResultant Polynomial after addition:");
+			printf("\n\tResultant Polynomial after Addition:");
 			displayPoly(Rhead);
 			break;
 		case 2:
 			Rhead=multiplyPoly(Phead,Qhead);
-			printf("\n\tResultant Polynomial after multiplication:");
+			printf("\n\tResultant Polynomial after Multiplication:");
 			displayPoly(Rhead);
 			break;
 		default:
@@ -55,13 +55,13 @@ struct node *readPoly()
 	struct node *n,*ptr,*head=NULL;
 	printf("\nEnter number of terms of the polynomial:");
 	scanf("%d",&N);
-	printf("\nEnter the COEFFICIENT and EXPONENT in DESCENDING ORDER\n");
+	printf("\nENTER THE COEFFICIENT AND EXPONENT IN DESCENDING ORDER\n");
 	for(i=0;i<N;i++)
 	{
 		n=(struct node *)malloc(sizeof(struct node));
 		printf("\n\t\t\tEnter the coefficient(%d) :",(i+1));
 		scanf("%d",&c);
-		printf("\n\t\t\tEnter your exponent(%d) :",(i+1));
+		printf("\n\t\t\tEnter your Exponent(%d) :",(i+1));
 		scanf("%d",&e);
 		n->coeff=c;
 		n->expo=e;
