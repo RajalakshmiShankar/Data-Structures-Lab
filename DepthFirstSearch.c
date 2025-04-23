@@ -7,7 +7,7 @@ bool visited[10];
 void main()
 {
 int i,j,v;
-printf("Enter the no. of nodes in the graph\n");
+printf("Enter the number of nodes in the graph\n");
 scanf("%d",&n);
 printf("Enter the adjacency matrix \n");
 for(i=1;i<=n;i++)
