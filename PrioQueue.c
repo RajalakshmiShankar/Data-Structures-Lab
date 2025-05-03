@@ -111,7 +111,7 @@ void main()
 				DISPLAY();
 				break;
 			default:
-				printf("Exiting\n");
+				printf("Exiting....\n");
 		}
 	}while(opt!=4);
 }
