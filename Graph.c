@@ -48,7 +48,7 @@ void DFS(int node)
     //    printf("\nhello v=%d",v);
         while(i<v)
         {
-      //      printf("hello");
+      //      printf("HELLO");
             if(adj_matr[x][i]==1 && visited[i]==0)
             {
         //        printf("\nhi here x=%d i=%d",x,i);
