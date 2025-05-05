@@ -20,9 +20,9 @@ void main()
         n1=tuple(a,r1,c1,t1);
     }
 
-    printf("Enter the number of rows of second matrix ");
+    printf("Enter the number of rows of Second matrix ");
     scanf("%d", &r2);
-    printf("Enter the number of columns of second matrix ");
+    printf("Enter the number of columns of Second matrix ");
     scanf("%d", &c2);
 
     f2=read(b,r2,c2);
