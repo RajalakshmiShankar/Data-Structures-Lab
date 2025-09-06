@@ -25,7 +25,7 @@ int main()
 int readPoly(struct poly p[10])
 {
 	int i,t;
-	printf("Enter the no. of terms of the polynomial: ");
+	printf("Enter the number of terms of the polynomial: ");
 	scanf("%d",&t);
 	for (i=0;i<t;i++)
 	{
