@@ -82,7 +82,7 @@ void BFS(int node)
 int main()
 {
 int e,dg,v1,v2;
-printf("Enter the no of vertices (<10) and edges:");
+printf("Enter the no of Vertices (<10) and Edges:");
 scanf("%d%d",&v,&e);
 printf("Do you want to create a directed graph(0/1)?");
 scanf("%d",&dg);
